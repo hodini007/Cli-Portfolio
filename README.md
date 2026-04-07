@@ -2,17 +2,25 @@
 
 Welcome to my interactive, terminal-based portfolio! This project allows you to view my resume, skills, and projects directly from your command line interface. It features custom ASCII art, a retro-futuristic "hacker" typing animation, and clickable links.
 
-![portfolio screenshot](https://via.placeholder.com/800x400.png?text=CLI+Portfolio+Screenshot) *(Note: You can replace this placeholder image with an actual screenshot of your terminal later!)*
 
 ## ⚡ How to Run
 
 You don't need to download or install any files. If you have Python installed, simply open your terminal (Command Prompt, PowerShell, or bash) and paste the following command:
 
-### Windows / Mac / Linux:
-```bash
+### Windows (Command Prompt):
+```cmd
 curl -sL https://raw.githubusercontent.com/hodini007/cli-portfolio/main/portfolio.py | python
 ```
-*(If you are on Linux or macOS and the above command doesn't work, try replacing `python` with `python3` at the end).*
+
+### Windows (PowerShell):
+```powershell
+curl.exe -sL https://raw.githubusercontent.com/hodini007/cli-portfolio/main/portfolio.py | python
+```
+
+### Mac / Linux:
+```bash
+curl -sL https://raw.githubusercontent.com/hodini007/cli-portfolio/main/portfolio.py | python3
+```
 
 ## 🛠️ Features
 - **Zero Installation:** Runs purely off a `curl` pipe into Python memory. 
