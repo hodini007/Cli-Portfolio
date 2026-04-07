@@ -57,68 +57,7 @@ banner_name = r"""
          \|___|                   \/____/                  \/____/                                       \/____/                  \/____/         
 """
 
-banner_photo = f"""
-{CYAN}                                                                                                               
-                                                                                                               
-                                              ▒                                                                
-                                            ░▒▓   ░ ▒░                                                         
-                                          ░       ░░     ░░                                                    
-                                         ▒ ░         ░▒█░ ░▒                                                   
-                                        ░░      ░░░░▒░░▒▒▓▓▒░▓                                                 
-                                        ░  ░░░░░░░░░░ ░░   ░ ░                                                 
-                                       ░ ░░░░░░░░░░░▒▓█▓▓░░                                                    
-                                         ░▓▓█▓▒▒▒▒░░ ░░░░▒▓░ ░                                                 
-                                         ░▓   ░░░░░░░░ ▒░░░▒                                                   
-                                        ░░░░▒░░░ ░░▒░░░░░▒░▒▒▓▒░░                                              
-                                         ▒▒▒▒░ ░▓▓░ ░░░░░░░▒░▒░                                                
-                                       █▒▒▒▒▒▓▒░▓▒░░▒░░░░░░░░▒░░                                               
-                                       ░░░▒▒░░░░░░░░░░░░░░░░▒▒░                                                
-                                          ░▒░░░▓▒░░░░░ ░░░░░░▒                                                 
-                                           ░▒░░░ ░░░░░░░░░░░░▒                                                 
-                                             ░▒░▒▒░░░░░░░░░░░░                                                 
-                                              ▒░░░░░░░░░░░░░░░                                                 
-                                              ░▒▒▒░░░░░░░░░░░░                                                 
-                                               ░░▒░░░░░░░░░░░▓                                                 
-                                              ░░░▒▒▒▒░░░░░░░░▒                                                 
-                                              ▒░░░░░░░░░░░░░░▒░                                                
-                                              ▒▒░ ░░░░░░░░░ ▒▒▒░                                               
-                                           ░▒░░▒▒▒▒   ░░  ░▓▒▒░░░▒░                                            
-                                        ░░░░░░░░░▒▒▓█▓░░▒█▓▒▒░░░░░░░░▒░                                        
-                                    ░░░░░░░░░░░░░░▒▓▒      ▓▓▒░░░░░░░░░░░░░                                    
-                                ░▒░▒░░░░░░░░░░░░▒▒▒          ▒░░░░░░░░░░░░░░░░░                                
-                             ▒░░░░░░░░░░░░░▒▒▒▒░▒░░▒▒▒      ▓▒░░░░░░░░░░░░░░░░░░▒▒                             
-                            ▒░░░░░░░░░░░░░░▒░░▒▒▒▒▒▒▒▒▒░   ░▓▒░░░▒▒▒░░░░░░░░░░░░░░░                            
-                           ▒▒░░░░░░▒▒▒░░░░▒▒░░░▒▒░▒▒▒░▒     ▓▒░░░▒░▒░░░░░░░░░░░░░░░▒                           
-                          ▒▒░░░░▒▒▒▒░▒▒░░░▒░░░░░▒▒░▒▒▒░     ▒▒░░░▒░▒░░░░▒░▒░░░░░░░░░▒                          
-                          ░░░░▒▒▒░▒▒░░▒▒░░▒░░░░░▒▒▒░▒▒░     ░▒▒░░▒▒▒░░░░░░░░░░░░░░░░▒▒                         
-                         ▒░░░░▒░░▒▒▒▒░░▒▒░▒░░░░░▒░▒▒░▒░     ░▒▒░░░░░░░░░▒░▒░░░░░░░░░░▒                         
-                         ▒░░░░▒░░░▒░░░░▒▒▒▒░░░░▒▒░▒▒▒░      ░░▒▒░░░░░░░░▒▒▒▒▒▒▒▒▒░░░░▒                         
-                         ▒░░░░▒░▒░░░░▒░░▒▒▒▒░░░▒░░▒▒▒▒      ░▒▒▒░░░░░░▒░▒░░▒░░▒░▒░░░░▒                         
-                         ▒░░░░▒▒░▒░░░▒▒░░▒▒▒▒░░▒░░▒░▒▒       ▒▒▒░░░░░░▒░▒▒░▒░▒▒▒▒░░░░░░                        
-                         ▒░░░░░▒░░▒░░░▒░░░▒▒▒▒░▒░░▒░░▒░▒▒██▓▒▒▒░░░░░░░▒▒▒▒▒▒░▒▒░░░░░░░░                        
-                         ▒░░░░▒▒░▒▒▒░░▒░░░▒▒▒▒▒▒░░▒▒▒░    ░  ▒▒▒░░░░▒▒▒▒░░▒░░▒▒░░░░░░░░                        
-                         ░░░░▒▒▒▒▒▒▒▒░░▒░░░▒▒░▒▒▒▒▒▒▒▒       ░▒▒▒▒▒░▒░    ▒░░▒▒░░░░░░░░                        
-                         ░░░▒▒▒░░▒  ░░░░▒░░▒▒░░░░▒░░░▒       ░░▒▒░▒▒▒▒▒▒▒▒░░░▒▒░░░░░░░░                        
-                         ░░░▒▒░░  ░░░░░░▒░░▒▒▒▒░░░░░ ░       ▒░▒▒░░▒▒▒▒▒▒░▒░░▒▒░░░░░░░░                        
-                         ▒░░▒▒░ ░░░░░░░░░░░░▒░░░░░░░░▓       ▒░░▒▒░░▒▒▒▒░░░  ▒▒▒░░░░░░░▒                       
-                         ▒░░░▒▒░░░░░░░░░   ░▒▒░▒▒▒▒▒▒▓      ░▓▒░▒▒░░░░░░░░   ▒▒▒▒░░░░░░▒░                      
-                         ░░░░░▒▒░ ░░░░░░    ░▒▓▓▒▒▒▒▒░      ░▒▒░░░░░░      ░  ▒▒▒░░░░░░░▒                      
-                         ▒░░░░▒▒▒▒    ░▒▓▓▓▒░       ░       ░░▒▒▒▒▒▒▒▓▓▓▓▒░░░ ░▒▒░░░░░░░█                      
-                         ▒░░░░░▒▒▒▓▓▓▓▓▒▒▒▒▒▒▒▓▓▓▓▓▒▓▓▓█████▓▓▒░░░░░▒▒▒▒░░░░░░ ▒▒░░░░░░░░                      
-                         ░░░░░▒░░▒▒░░░░░░░░░░░░░▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░░░░░   ░▒▒░░░░░░░░                      
-                          ░░░░░░▒░▒░░░░░░░░░░░░▒▒░░░░░░░░░░░░░░░░░░░░░░    ░▓▓▒▒░░░░░░░░░                      
-                          ▒░░░▒▒░▒▒░░░▒▒▒░░░░▒▒▒░░░░░░░░░░░░░░▒▒▒▒░░░░▓▓▓▓▓▒▒░░░░░░░░░░░░                      
-                          ▒░░░▒░▒▒░░░░▒░▒░░░▒▒▒░░░░░░░░░░▒▒▒░░    ░█▓▒▒░░░░░░▒▒▒▒▒▒▒▒░░░░                      
-                          ░░▒░▒▒▒░░░░░▒▒▒░░▒▒░░░░░░░░░░░     ░░░░░░  ▓▒▒▒░░░░▒░░░░░░░░░░░                      
-                            ▒░░░░░░░░░░░░░▒▒░░░░░░░░ ░░░░░░░░░░░░░░░░░ ▓▒▒▒░░▒▒▒▒▒▒▒▒░░░                       
-                            ▓█▒▒▒▒░░░░░░░░▒  ░░░▓▒░▒▒▒▒▒▒░░░░░░░░░░░░░░░░▒▒▒░▒▒▒░░░░░░░                        
-                                 ░░░░░▒▒▒▒▒▒▒▒▒▒░░░    ░░░░    ░░░░░░░░░   ▒▒▒░▒░▒░                            
-                                 ▒░░░░▒░░░▒▒▒░▒░░░        ▒▒▒▒▒▓▒░░   ▒▓▓▓▒▒▒░▒▒░                              
-                                 ░░░░░▒▒▒▒▒░▒▒▒▒▒▓        ████▓▓▒▒▒▓▓▒▒░░░░▒▒▒▒▒░▒                             
-                                ░░░░░░░░░░░░░░░▒▒▓              ▓▓▓▓▓▓▒▒▒░░▒░░░                                
-                                ░░░░░░░░░▒▒▒▒▒▓▓▓▒       ░▓▓▓▓░     ░░▒▓▓▓██▓▒▒                                
-                               ▒░▒▒▒▒▒▓▓██▓▓▒░░░░░▒░   ░▒▒░░░░░░             ░░{RESET}
-"""
+
 
 EMAIL = make_link("raiyanrohit10@gmail.com", "mailto:raiyanrohit10@gmail.com")
 LINKEDIN = make_link("LinkedIn", "https://linkedin.com/in/YOUR_LINKEDIN")
@@ -185,20 +124,20 @@ CERTIFICATIONS = f"""
 PROJECTS = f"""
 {BOLD}{YELLOW}[ KEY TECHNICAL PROJECTS ]{RESET}
 
- {BOLD}{CYAN}Elecsyn (AI Multisim Automation Agent){RESET} — {GITHUB}
+ {BOLD}{CYAN}Elecsyn (AI Multisim Automation Agent){RESET} - {GITHUB}
  {GRAY}Developed a Python script that uses Google Gemini 2.5 Pro to generate SPICE netlists 
  from natural language prompts, automatically importing and running simulations in 
  NI Multisim via Python automation (pywinauto). Implements retry logic with exponential 
  backoff. Demonstrates AI integration and end-to-end system automation.{RESET}
 
- {BOLD}{CYAN}Potato Disease Detection System (CNN/Deep Learning){RESET} — {GITHUB}
+ {BOLD}{CYAN}Potato Disease Detection System (CNN/Deep Learning){RESET} - {GITHUB}
  {GRAY}Built an AI-powered Streamlit web application that classifies potato leaf diseases 
  (Early Blight, Late Blight, Healthy) using a custom CNN trained on the PlantVillage 
  dataset. Features 256×256 RGB inputs with built-in normalization, Conv2D and MaxPooling2D 
  layers, and dual-input modes (file upload and live camera feed). Architecture is extensible 
  to 10+ plant species.{RESET}
 
- {BOLD}{CYAN}OrbiSense (Satellite Tracking Application){RESET} — {GITHUB}
+ {BOLD}{CYAN}OrbiSense (Satellite Tracking Application){RESET} - {GITHUB}
  {GRAY}Developed an interactive satellite tracking suite using the Skyfield SGP4 physics engine 
  to predict passes and visualize ground-tracks for Weather satellites, ISS, Starlink, 
  and Amateur Radio. Modular design with TLE caching (24-hour TTL), root-finding for precise 
@@ -206,13 +145,13 @@ PROJECTS = f"""
  Matplotlib 2D maps. Originally built to intercept weather-satellite telemetry during 
  severe cyclones.{RESET}
 
- {BOLD}{CYAN}Diabetes Risk Classifier (ML/GUI){RESET} — {GITHUB}
+ {BOLD}{CYAN}Diabetes Risk Classifier (ML/GUI){RESET} - {GITHUB}
  {GRAY}Created a GUI-based Prediction Application using ML to forecast diabetes risk based on 
  user inputs (Age, BMI, Blood Pressure). Focused on user-friendly ML deployment.{RESET}
 
- {BOLD}{CYAN}Charged Particle Orbit Simulation (Julia/Physics){RESET} — {GITHUB}
- {GRAY}Simulated two charged particles under Coulomb’s Law using Julia and numerical integration 
- (Euler’s method). Produced animated orbit visualizations using Plots.jl.{RESET}
+ {BOLD}{CYAN}Charged Particle Orbit Simulation (Julia/Physics){RESET} - {GITHUB}
+ {GRAY}Simulated two charged particles under Coulomb's Law using Julia and numerical integration 
+ (Euler's method). Produced animated orbit visualizations using Plots.jl.{RESET}
 """
 
 def main():
@@ -228,8 +167,7 @@ def main():
     print(CYAN + banner_name + RESET)
     time.sleep(0.3)
     
-    print(banner_photo)
-    time.sleep(0.3)
+
     
     print(PROFILE)
     time.sleep(0.4)
@@ -262,7 +200,10 @@ def main():
     type_line(f"{GREEN}[SYSTEM HACK COMPLETED: Enjoy exploring Raiyan's Portfolio]{RESET}", delay=0.01)
     
     print(f"\n{GRAY}Press Enter to exit...{RESET}")
-    input()
+    try:
+        input()
+    except EOFError:
+        pass
 
 if __name__ == "__main__":
     try:
