@@ -1,36 +1,35 @@
 # 🚀 Interactive CLI Portfolio
 
-Welcome to my interactive, terminal-based portfolio! This project allows you to view my resume, skills, and projects directly from your command line interface. It features custom ASCII art, a retro-futuristic "hacker" typing animation, and beautiful tables and panels powered by the `rich` Python library.
+Welcome to my interactive, terminal-based portfolio! This project allows you to view my resume, skills, and projects directly from your command line interface. It features custom ASCII art, a retro-futuristic "hacker" typing animation, and beautiful styling powered by the `rich` Python library.
 
 ![portfolio screenshot](https://via.placeholder.com/800x400.png?text=CLI+Portfolio+Screenshot) *(Note: You can replace this placeholder image with an actual screenshot of your terminal later!)*
 
 ## ⚡ How to Run
 
-To render the beautiful terminal layout, this script utilizes the `rich` library. Follow these steps to run the portfolio on your local machine:
+You don't need to manually download or save any files. If you have Python installed, simply open your terminal (Command Prompt, PowerShell, or bash) and paste the following command. It will automatically install the `rich` UI library and run the interactive portfolio from the `rich_implementation` branch!
 
-### 1. Clone or Download the Repository
-```bash
-git clone https://github.com/hodini007/cli-portfolio.git
-cd cli-portfolio
+### Windows (Command Prompt):
+```cmd
+pip install rich && curl -sL https://raw.githubusercontent.com/hodini007/cli-portfolio/rich_implementation/portfolio.py | python
 ```
 
-### 2. Install Dependencies
-Make sure you have Python installed, then install the required formatting library:
-```bash
-pip install rich
+### Windows (PowerShell):
+```powershell
+pip install rich; curl.exe -sL https://raw.githubusercontent.com/hodini007/cli-portfolio/rich_implementation/portfolio.py | python
 ```
 
-### 3. Run the Portfolio
+### Mac / Linux:
 ```bash
-python portfolio.py
+pip3 install rich && curl -sL https://raw.githubusercontent.com/hodini007/cli-portfolio/rich_implementation/portfolio.py | python3
 ```
 
 ## 🛠️ Features
-- **Rich Terminal UI:** Displays skills and projects using clean tables, bordered panels, and vibrant syntax highlighting.
+- **Instant Execution:** Automatically fetches and runs via `curl` straight into Python memory. 
+- **Rich Terminal UI:** Displays skills and projects using clean tables, bordered panels, and formatting.
 - **Dynamic Progress Bars:** Features smooth, animated data-loading terminal bars.
-- **Typewriter Animation:** Retro, delayed text printing for the system boot-up sequence.
+- **Typewriter Animation:** Retro, delayed text printing for the boot-up sequence.
 - **ASCII Art:** Custom generated 3D name banner and portrait art.
-- **Cross-Platform Compatibility:** Works beautifully on Windows (Command Prompt, PowerShell), macOS, and Linux with built-in unicode support processing (`chcp 65001`).
+- **Cross-Platform:** Works successfully on Windows, macOS, and Linux out of the box with proper ANSI support encoding (`chcp 65001`).
 - **Clickable Links:** Uses modern terminal hyperlinking for my email, LinkedIn, and GitHub profiles.
 
 ## 👨‍💻 About Me
